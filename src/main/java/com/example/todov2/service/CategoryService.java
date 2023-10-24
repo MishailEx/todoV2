@@ -39,6 +39,8 @@ public class CategoryService {
     public List<Category> search(CategorySearchValues searchValues) {
         System.out.println("aaa");
         System.out.println("aaa");
+        System.out.println("aaa");
+        System.out.println("aaa");
         return categoryRepository.findByTitleAll(searchValues.getText());
     }
 }
