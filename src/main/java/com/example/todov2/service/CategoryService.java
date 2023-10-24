@@ -40,6 +40,7 @@ public class CategoryService {
         System.out.println("aaa");
         System.out.println("aaa");
         System.out.println("aaa");
+        System.out.println("апывп");
         return categoryRepository.findByTitleAll(searchValues.getText());
     }
 }
