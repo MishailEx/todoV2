@@ -38,8 +38,11 @@ public class CategoryService {
 
     public List<Category> search(CategorySearchValues searchValues) {
         System.out.println("aaa");
+        System.out.println("ghfhf");
         System.out.println("aaa");
         System.out.println("aaa");
+        System.out.println("апывп");
+        System.out.println("апывп");
         System.out.println("апывп");
         return categoryRepository.findByTitleAll(searchValues.getText());
     }
